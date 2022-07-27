@@ -10,14 +10,40 @@
     
 
     <script>
+        //var example
         var name = "My Name is Tamim"
         console.log(name);
 
+        //let example
         let age = 30;
         console.log(age);
+        //input example
+        // let input = prompt("What is your name");
+        // alert("Hello " + input);
+        //input example2
+        let myFirstName;
+        myFirstName = "Tamim"
+        console.log(myFirstName);
 
-        let input = prompt("What is your name");
-        alert("Hello " + input);
+        //variable name can't start numbers
+        let problems = "No Problem";
+        // var 99problems = "Many more problems";
+        //but you can start variable name by first use name and after number
+        let problems99 = "It's valid solution"
+        console.log(problems99);
+
+        //so you can start the variable by using the letter number underscore and $sign but you can not start the variable by using number.
+
+        let firstName; //camel Case - Recommended 
+        let first_name; //underscore type
+        let FirstName; //Pascal Case - Object, Constrictor function, ES6 Class
+
+        //const
+
+        const myLocation ="Dhaka";
+        //const initialized; Const can't support initialize any value;
+        // myLocation = "Kolkata"; Const values cannot be reassigned.
+        console.log(myLocation);
     </script>
 </body>
 </html>
